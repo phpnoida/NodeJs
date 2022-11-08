@@ -1,0 +1,11 @@
+Types of queries used for Searching are :
+1.term level queries used incase we need to do exact matching 
+and it is case sensitive ,used mainly for match email,status or while applying filters , no relevance scoring is returned in this case bcz elastic have to do exact match 
+
+2.fulltext search it is case insensitive so user type uppercase or lowercase doesnot matter ,elastic returns relevance scoring of matched result
+
+3.fuzzysearch used to send records even user has spelling mistakes
+
+4.highlightsearch used when we have chat kind of applications
+
+5.bool queries -->it is where we can write both term as well as fulltext queries 
